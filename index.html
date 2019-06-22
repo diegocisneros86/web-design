@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Web</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/virgin-mobile-mexico.png" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-lg-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#compraChip">Compra tu Chip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#porta">Trae tu número</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cobertura">Cobertura</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!-- Parallax -->
+    <section class="zoom col-sm-12">
+      <img src="img/home-logo.png" class="text" />
+      <img src="img/cloud-left.png" class="layer1" />
+      <img src="img/cloud-right.png" class="layer2" />
+    </section>
+<!-- End Parallax -->
+
+    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
+      <div class="container h100">
+        <div class="contentBox h100 text-center">
+          <div>
+            <h1>Home</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              aspernatur sit nemo dignissimos itaque magnam praesentium enim
+              porro temporibus quas. Sapiente unde officia non beatae. Hic
+              repellat quaerat cum corporis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Cambiar a compra -->
+    <section class="sec1" id="compraChip">
+      <div class="container text-center">
+        <div class="headerText text-center">
+          <h1>
+              Compra tu chip y aprovecha los descuentos
+          </h1>
+        </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="placeBox">
+                        <div class="imgBx">
+                          <img src="img/PAQUETES/Todo-ilimitado.PNG" class="img-fluid">
+                        </div>
+                        <div class="content">
+                          <h3><a href="#" class="btn btnD1">Comprar</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="placeBox">
+                        <div class="imgBx">
+                          <img src="img/PAQUETES/Mediano.PNG" class="img-fluid">
+                        </div>
+                        <div class="content">
+                          <h3><a href="#" class="btn btnD1">Comprar</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="placeBox">
+                        <div class="imgBx">
+                          <img src="img/PAQUETES/Chico.PNG" class="img-fluid">
+                        </div>
+                        <div class="content">
+                          <h3><a href="#" class="btn btnD1">Comprar</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec2" id="porta">
+      <div class="container col-sm-12">
+        <div class="row">
+          <div class="left col-sm-6">
+            <div class="headerText">
+              <h2>
+                Conserva tu número y te agrandamos el paquete
+              </h2>
+                <div class="separator">
+                </div>
+                 <div class="portaDetail">
+                    <font style="font-weight: bolder;">
+                        Te damos 30 días de servicio
+                    </font> con $100 por 1 año.
+                 </div>
+            </div>
+          </div>
+          <div class="right col-sm-6">
+            <div class="headerText">
+              <!-- Meter Formulario -->
+              <button class="btn hago"></button>
+              <div class="portaDetail" id="portaForm">
+                  <p>Aquí te apoyamos con tu portabilidad.
+                  <font style="font-weight: bolder;">
+                  sólo pásanos tus datos.</font></p>
+              </div>
+              <div class="row clearfix">
+                  <div class="offset-sm-2 col-sm-8">
+                      <form action="">
+                          <div class="form-group">
+                              <input type="text" name="" class="form-control" placeholder="¿Cómo te llamas?" required="required">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" email="" class="form-control" placeholder="Correo Electrónico" required="required">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" phone="" class="form-control" placeholder="Danos un número para marcarte" required="required">
+                          </div>
+                          <div class="row margin-bottom text-center">
+                              ¡Nosotros no somos como la vecina! No inventamos chismes y menos hacemos mal uso de tus datos.
+                          </div>
+                              <div class="row">
+                                  <div class="col-md-12 text-center">
+                                      <input type="checkbox" name="privacy" id="privacy"> 
+                                          <label for="privacy" class="">
+                                              Acepto <a href="terminos/aviso-de-privacidad" target="_blank" > aviso de privacidad</a>
+                                          </label>
+                                  </div>
+                              </div>
+                          <div class="form-group">
+                              <button class="btn btnD2">
+                                  Contáctame
+                              </button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="sec3">
+        <div class="container col-sm-12 text-center">
+            <div class="row">
+                <div class="bonnus">
+                    <div class="benefitsCarousel">
+                        <div class="front">
+                          <img src="img/benefits/front_dominos.jpg" class="img-fluid">
+                        </div>
+                        <div class="back">
+                          <img src="img/benefits/back_dominos.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="bonnus">
+                    <div class="benefitsCarousel">
+                        <div class="front">
+                            <img src="img/benefits/front_italianis.jpg" class="img-fluid">
+                        </div>
+                        <div class="back">
+                          <img src="img/benefits/back_italianis.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="bonnus">
+                    <div class="benefitsCarousel">
+                        <div class="front">
+                            <img src="img/benefits/front_musica.jpg" class="img-fluid">
+                        </div>
+                        <div class="back">
+                          <img src="img/benefits/back_musica.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="bonnus">
+                    <div class="benefitsCarousel">
+                        <div class="front">
+                            <img src="img/benefits/front_starbucks.jpg" class="img-fluid">
+                        </div>
+                        <div class="back">
+                          <img src="img/benefits/back_starbucks.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="bonnus">
+                    <div class="benefitsCarousel">
+                        <div class="front">
+                            <img src="img/benefits/front_uber.jpg" class="img-fluid">
+                        </div>
+                        <div class="back">
+                          <img src="img/benefits/back_uber.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec4" id="cobertura">
+        <div class="content h100 text-center">
+            <div class="contentBox h100">
+                <div>
+                    <h1>Mapa de Cobertura</h1>
+                    <img src="img/cobertura.png" style="height: 80px">
+                    <div class="container-fluid">
+                        <div class="content">
+                          <h2><a href="#" class="btn btnD2">2G</a></h2>
+                        </div>
+                        <div class="content">
+                          <h2><a href="#" class="btn btnD2">3G</a></h2>
+                        </div>
+                        <div class="content">
+                          <h2><a href="#" class="btn btnD2">4G</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerText text-center">
+                        <h2>Contacto</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="offset-sm-2 col-sm-8">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" email="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Número</label>
+                            <input type="text" phone="" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btnD1">
+                                Contáctame
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Síguenos</h2>
+            <ul class="sci">
+              <li><a href="#"><i class="fa fa-facebook"></i><!--Use fontawsome icon-->
+              <li><a href="#"><i class="fa fa-twitter"></i><!--Use fontawsome icon-->
+              <li><a href="#"><i class="fa fa-snapchat"></i><!--Use fontawsome icon-->
+              <li><a href="#"><i class="fa fa-instagram"></i><!--Use fontawsome icon-->
+              <li><a href="#"><i class="fa fa-google-plus"></i><!--Use fontawsome icon-->
+            </ul>
+            <p class="cpryt">Todos los Derechos Reservados Virgin Mobile México © MMXVII</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script src="httmp://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      $(document).scroll(function(){
+        $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+      });
+    </script>
+    <script type="text/javascript">
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        $(".layer1").css({
+          width: 100 + scroll / 5 + "%"
+        });
+        $(".layer2").css({
+          width: 100 + scroll / 5 + "%",
+          left: scroll / 50 + "%"
+        });
+        $(".text").css({
+          top: -scroll / 20 + "%"
+        });
+      });
+    </script>
+  </body>
+</html>
